@@ -1,0 +1,80 @@
+.app {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#entry-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  align-items: center;
+  width: 40rem;
+  height: 10rem;
+  margin: 2rem auto;
+  max-width: 80%;
+  padding: 1rem;
+}
+
+#entry-text p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#entry-text input {
+  background-image: url("https://i1.pngguru.com/preview/446/830/572/hugo-icon-collection-in-the-ecqlipse-2-style-search1-png-icon.jpg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  background-size: 1.2rem;
+  width: 90%;
+}
+
+input {
+  background: white;
+  font: inherit;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.2rem;
+  color: #383838;
+}
+
+input:focus {
+  outline: none;
+}
+
+#sortBy {
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.2rem;
+  color: #383838;
+  font: inherit;
+  margin-top: 0.5rem;
+  width: 90%;
+}
+
+#course-list{
+  width: 40rem;
+  max-width: 90%;
+  margin: 1rem auto;
+  padding: 0;
+  max-width: 80%;
+}
+
+button{
+  font: inherit;
+  background-color: #f67722;
+  border: 1px solid #f67722;
+  color: white;
+  box-shadow: 0 1px 6px rgba(0, 0,0, 0.5);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+

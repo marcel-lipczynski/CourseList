@@ -1,0 +1,40 @@
+.modal_content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal {
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 100;
+    width: 80%;
+    top: 30vh;
+    left: 10%;
+    display: block;
+  }
+
+  .modal_actions{
+      padding: 1rem;
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  #addButton{
+    background-color: #20C211;
+    border: 1px solid #20C211
+  }
+
+  #cancelButton{
+    background-color: #c83820;
+    border: 1px solid #c83820
+  }
+
+  
+
+  @media (min-width: 768px) {
+    .modal {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
+  }
